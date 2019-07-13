@@ -221,6 +221,7 @@
     <Compile Include="Data\MetaSqlDataProvider.cs" />
     <Compile Include="IMetaService.cs" />
     <Compile Include="MetaCollection.cs" />
+    <Compile Include="MetaCollectionExtensions.cs" />
     <Compile Include="MetaEntity.cs" />
     <Compile Include="MetaModel.cs" />
     <Compile Include="MetaQuery.cs" />

@@ -6,11 +6,10 @@ using restlessmedia.Module.Data;
 
 namespace restlessmedia.Module.Meta.Data
 {
-  public class MetaSqlDataProvider : SqlDataProviderBase
+  internal class MetaSqlDataProvider : SqlDataProviderBase
   {
     public MetaSqlDataProvider(IDataContext context)
-      : base(context)
-    { }
+      : base(context) { }
 
     public void Save(MetaEntity meta)
     {

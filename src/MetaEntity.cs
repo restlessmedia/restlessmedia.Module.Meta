@@ -55,8 +55,7 @@ namespace restlessmedia.Module.Meta
           switch (ValueType)
           {
             case MetaValueType.Boolean:
-              bool valueAsBool;
-              TryParseBool(v, out valueAsBool);
+              TryParseBool(v, out bool valueAsBool);
               return valueAsBool.ToString();
             default:
               return v.ToString();
@@ -110,8 +109,7 @@ namespace restlessmedia.Module.Meta
         }
 
         // bool - try to parse first, then check for common bool value types (1,0,-1,yes,no etc)
-        bool valueAsBool;
-        if (TryParseBool(valueAsString, out valueAsBool))
+        if (TryParseBool(valueAsString, out bool valueAsBool))
         {
           MetaValue = valueAsBool;
           ValueType = MetaValueType.Boolean;

@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using restlessmedia.Module.Meta.Data;
 
 namespace restlessmedia.Module.Meta
 {
@@ -6,9 +7,8 @@ namespace restlessmedia.Module.Meta
   {
     public void RegisterComponents(ContainerBuilder containerBuilder)
     {
-      //containerBuilder.RegisterType<EmailService>().As<IEmailService>().SingleInstance();
-      
-      //containerBuilder.RegisterSettings<IGoogleSettings>("restlessmedia/google", required: false);
+      containerBuilder.RegisterType<MetaService>().As<IMetaService>().SingleInstance();
+      containerBuilder.RegisterType<MetaDataDataProvider>().As<IMetaDataDataProvider>().SingleInstance(); 
     }
   }
 }
