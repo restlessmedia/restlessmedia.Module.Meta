@@ -1,0 +1,9 @@
+src/bin
+src/obj
+src/bin
+src/obj
+.DS_Store
+.vs
+packages/**/*
+restlessmedia.Module.Meta.UnitTest/bin
+restlessmedia.Module.Meta.UnitTest/obj
