@@ -219,6 +219,7 @@
     <Compile Include="Data\IMetaDataDataProvider.cs" />
     <Compile Include="Data\MetaDataDataProvider.cs" />
     <Compile Include="Data\MetaSqlDataProvider.cs" />
+    <Compile Include="Data\UDTMeta.cs" />
     <Compile Include="IMetaService.cs" />
     <Compile Include="MetaCollection.cs" />
     <Compile Include="MetaCollectionExtensions.cs" />
