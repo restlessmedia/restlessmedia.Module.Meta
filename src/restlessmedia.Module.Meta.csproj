@@ -4,13 +4,13 @@
     <AssemblyTitle>restlessmedia.Module.Meta</AssemblyTitle>
     <Product>restlessmedia.Module.Meta</Product>
     <Description>Module meta library.</Description>
-    <Copyright>Copyright restlessmedia 2019</Copyright>
+    <Copyright>Copyright restlessmedia 2020</Copyright>
     <Version>1.0.4</Version>
     <AssemblyVersion>1.0.4</AssemblyVersion>
     <FileVersion>1.0.4</FileVersion>
     <OutputPath>bin\$(Configuration)\</OutputPath>
     <Authors>Phil Cooper</Authors>
-    <PackageId>$title$</PackageId>
+    <PackageId>restlessmedia.Module.Meta</PackageId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>full</DebugType>
